@@ -1,0 +1,73 @@
+Business Option
+Choose an existing site: http://www.spcballet.org/
+
+1. Write a summary of the aspects that are lacking from the perspective of mobile access
+
+This a review of www.spcballet.org (St. Paul Ballet). It is an artist-led company so I suspect that 
+one of the dancers built the site (since it looks like it's been made with WordPress). Overall, not a 
+good user experience. It's not clear what they want you to do. There are a lot of options, too many. 
+In addition, they lack any purposeful mobile strategy (the W3C Mobile Validator gave them 0%). 
+
+The style sheets appear to be for desktops. The overall page layout has an odd ratio with the page or 
+columns seemingly divided into fifths with 4/5 for body and 1/5 for sidebar. This makes it harder to 
+scale down especially with all the content stuffed into the side bar. Images are too large. For example,
+ the slideshow on the homepage wass cutoff when it loaded and the buttons on the slides do not work. 
+ 
+The amount of content is overwhelming with too many images, links and words on the homepage and other pages.
+It is hard to see and read all of it. The user spends too much time trying to wade through all the content 
+to even decide to do something. You should not have to scroll down so much to see everything on each page.  
+Menus are too small to read and click. Forms are too small and all on one page making it difficult to complete.
+ Validiation is limited. 
+
+As far as ease of development, WordPress has significant limitations. You can't change the structure of the 
+html or modify the back-end of the site. And as far as technologies, there are a lot of APIs and plugins 
+you can't use with it. Obviously, this choice was made for a non-developer in mind. They are non-profit but 
+the overall design does not focus on donation as much as other non-profit site do. It does not leverage any
+advanced device utlities. However, it does  have a cool time-lapse YouTube video of them working on their 
+new studio (have to say something positive). But other than that it is mostly informational.
+
+
+2. Write a summary of how you would reccomend addressing the issues, referencing online resources 
+(like http://mobilepatterns.com) for industry standards or emerging tends in well-designed mobile websites.
+
+Obviously I recommend they start by adopting a mobile strategy namely adpative design. This would be an easy way 
+to be more mobile-friendly using responsive templates/css like Bootstrap for automatic device detection and scaling. 
+This would be the least effort for the amount of performance gained which is key for a non-profit organization. It 
+would also be easier to deploy since they wouldn't need to create a separate mobile website or app.
+
+If they wish to have more flexibilty in development of the website, I would recommend them dropping WordPress
+(for reasons sited above). Of course, this is used for convenience since a dancer can update the site content
+and probably makes it easier to deploy as well. So I'm not sure they would take such advice.  
+
+On the more technical side, they should reduce the number of embedded external resources and make them internal 
+to reduce the number of requests as recommended by the W3C mobileOK Checker. In addition, pop-ups should be removed
+as they are hard to deal with on a mobile devices. Also, they need to resize images especially the slideshow on
+the homepage. For the contact form, they should break down the form into a series of smaller steps or subforms which 
+would be easier for the user to read and fill out. Plus, add more validation for input beyond required fields. 
+Foundation would be good tool to help with the forms.
+
+They have a lot of content and images. They need to cut all of that down significantly which would be 
+helpful not just for mobile but other users, too. Move it to new pages, sidebar menus like on the
+Facebook app or documents like pdfs allowing the user to drill down further if they want. A good 
+starting point would be identify the key needs or tasks of the mobile user like buying tickets, looking
+ up class schedules, looking up events, artists or trying to find a studio location. 
+
+Paring down the menu on the home page to items like Donate, School, Company, Events and Tickets would be a good 
+start. Then remove all other content and extra selections to a sidebar menu (like the Facebook sidebar) 
+found on mobilepatterns.com or to other pages. A nice example for the home page might be the Instagram: Activity 
+Feed page also from mobilepatterns -see image). This allows for one nice visual to greet the user (which is important 
+for ballet since it's a visual art) and then a limited  menu. Also for lists of events they could use the Evernote: 
+Recent Posts format (again, mobilepatterns) which has a nice organized list with detailed information as needed. 
+
+Looking at the business model, they should make the donation button more prominent on every page like many other
+non-profit sites. In addition, making video content like the time-lapse footage more obvious because it's interesting
+to users (draws them in) and informs them on how much work the artists are doing (encourages more support). 
+
+Lastly, I would recommend integrating some of the advanced device tools such as GPS to find directions to their studio
+(since both studio locations are not easy to find) or if they want to make it easier donate or buy tickets with a 
+mobile device to integrate with new services like ApplePay. 
+
+
+
+
+
