@@ -23,8 +23,9 @@ As far as ease of development, WordPress has significant limitations. You can't 
 html or modify the back-end of the site. And as far as technologies, there are a lot of APIs and plugins 
 you can't use with it. Obviously, this choice was made for a non-developer in mind. They are non-profit but 
 the overall design does not focus on donation as much as other non-profit site do. It does not leverage any
-advanced device utlities. However, it does  have a cool time-lapse YouTube video of them working on their 
-new studio (have to say something positive). But other than that it is mostly informational.
+advanced device utlities. They do link to PayPal for a donation drive but that's buried. However, it does  
+have a cool time-lapse YouTube video of them working on their new studio (have to say something positive). 
+But other than that it is mostly informational.
 
 
 2. Write a summary of how you would reccomend addressing the issues, referencing online resources 
@@ -57,15 +58,19 @@ start. Then remove all other content and extra selections to a sidebar menu (lik
 found on mobilepatterns.com or to other pages. A nice example for the home page might be the Instagram: Activity 
 Feed page also from mobilepatterns -see image). This allows for one nice visual to greet the user (which is important 
 for ballet since it's a visual art) and then a limited  menu. Also for lists of events they could use the Evernote: 
-Recent Posts format (again, mobilepatterns) which has a nice organized list with detailed information as needed. 
+Recent Posts format (again, mobilepatterns) which has a nice organized list with detailed information as needed. Of
+course, these mobile screen shots are from mobile apps. Although they can't achieve the exact examples attached
+I'm suggesting that they can try to mimic these layouts/designs as closely as possible with adaptive design with such 
+techniques as adding more white space and reducing the number of images. This will lead to a much cleaner and efficient
+web design overall that will help with other users besides mobile.  
 
 Looking at the business model, they should make the donation button more prominent on every page like many other
 non-profit sites. In addition, making video content like the time-lapse footage more obvious because it's interesting
 to users (draws them in) and informs them on how much work the artists are doing (encourages more support). 
 
 Lastly, I would recommend integrating some of the advanced device tools such as GPS to find directions to their studio
-(since both studio locations are not easy to find) or if they want to make it easier donate or buy tickets with a 
-mobile device to integrate with new services like ApplePay. 
+(since both studio locations are not easy to find). Also, to make it easier to donate or buy tickets with a 
+mobile device I suggest integrating with new services like ApplePay. 
 
 
 
